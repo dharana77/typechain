@@ -1,2 +1,2 @@
-# typechain
-typeScript in action, simple blockjchain in typescript language
+# Typechain
+TypeScript in action, Simple Blockjchain in Typescript language
