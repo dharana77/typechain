@@ -4,9 +4,14 @@
   "main": "index.js",
   "author": "dharana dharana7723@gmail.com",
   "license": "MIT",
-  "scripts":{
-    "start":"node index.js",
-    "prestart": "tsc"
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.4.0"
+  },
+  "dependencies": {
+    "ps-tree": "^1.2.0",
+    "tsc": "^2.0.3"
   }
-
-} 
+}
